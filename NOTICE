@@ -1,5 +1,13 @@
-new-api Notices
+next-api Notices
 
+This is a modified fork of new-api, renamed to "Next API".
+Original project: new-api
+Copyright (c) QuantumNous and contributors.
+
+Next API (this modified version)
+Copyright (C) 2026 teayear(388python) <wanzixvan6@hotmail.com>
+
+Upstream original project:
 new-api
 Copyright (c) QuantumNous and contributors.
 
@@ -15,6 +23,10 @@ about, legal, footer, or attribution location presented by the user interface:
 
 "Frontend design and development by New API contributors."
 
+This modified version (Next API) preserves the above attribution and is
+based on New API. The frontend of Next API is designed and developed by
+teayear(388python), based on New API by QuantumNous.
+
 Modified versions that present a user interface must also preserve a visible
 link to the original project in a prominent about, legal, footer, or
 attribution location:
@@ -23,6 +35,23 @@ https://github.com/QuantumNous/new-api
 
 Modified versions must not misrepresent the origin of the software and must
 mark their changes in accordance with AGPLv3 Section 7(c).
+
+==== Private / Proprietary Use Authorization ====
+
+If you wish to use this software (or any derivative of it) privately or
+proprietaryly (i.e. without fulfilling the open-source obligations of
+AGPLv3, such as network-use source disclosure), you MUST obtain prior
+written consent from the maintainer of this modified version:
+
+teayear(388python)
+Email: wanzixvan6@hotmail.com
+Repository: https://github.com/388python/next-api
+
+Such private use is only permitted upon explicit written agreement with the
+maintainer. Without such consent, the AGPLv3 terms in the LICENSE file apply
+in full, including the requirement to publish the corresponding source code
+(including modifications) to all users interacting with the software over a
+network.
 
 ==== Third-Party Notices ====
 

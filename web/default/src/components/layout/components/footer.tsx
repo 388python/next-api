@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2026 teayear(388python) <wanzixvan6@hotmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -136,7 +137,16 @@ function ProjectAttribution(props: { currentYear: number; inline?: boolean }) {
       >
         {t('New API')}
       </a>
-      . {t(NEW_API_FOOTER_ATTRIBUTION_KEY)}
+      . {t(NEW_API_FOOTER_ATTRIBUTION_KEY)}{' '}
+      <a
+        href='https://github.com/388python/next-api'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='text-foreground/70 hover:text-foreground font-medium transition-colors'
+      >
+        {t('Next API')}
+      </a>{' '}
+      {t('© 2026 teayear(388python) — based on New API.')}
     </span>
   )
   if (props.inline) {

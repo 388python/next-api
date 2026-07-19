@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2025 QuantumNous
+Copyright (C) 2026 teayear(388python) <wanzixvan6@hotmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -207,6 +208,18 @@ const FooterBar = () => {
             >
               New API
             </a>
+            {' · '}
+            <a
+              href='https://github.com/388python/next-api'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='!text-semi-color-primary font-medium'
+            >
+              Next API
+            </a>{' '}
+            <span className='!text-semi-color-text-1'>
+              {t('基于 New API，由 teayear(388python) 维护')}
+            </span>
           </div>
         </div>
       </footer>

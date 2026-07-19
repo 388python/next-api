@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2025 QuantumNous
+Copyright (C) 2026 teayear(388python) <wanzixvan6@hotmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -62,34 +63,43 @@ const About = () => {
   const customDescription = (
     <div style={{ textAlign: 'center' }}>
       <p>{t('可在设置页面设置关于内容，支持 HTML & Markdown')}</p>
-      {t('New API项目仓库地址：')}
+      {t('Next API 项目仓库地址：')}
       <a
-        href='https://github.com/QuantumNous/new-api'
+        href='https://github.com/388python/next-api'
         target='_blank'
         rel='noopener noreferrer'
         className='!text-semi-color-primary'
       >
-        https://github.com/QuantumNous/new-api
+        https://github.com/388python/next-api
       </a>
       <p>
+        <a
+          href='https://github.com/388python/next-api'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='!text-semi-color-primary'
+        >
+          Next API
+        </a>{' '}
+        {t('© {{currentYear}}', { currentYear })}{' '}
+        <a
+          href='https://github.com/388python'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='!text-semi-color-primary'
+        >
+          teayear(388python)
+        </a>{' '}
+        {t('| 基于')}{' '}
         <a
           href='https://github.com/QuantumNous/new-api'
           target='_blank'
           rel='noopener noreferrer'
           className='!text-semi-color-primary'
         >
-          NewAPI
+          New API
         </a>{' '}
-        {t('© {{currentYear}}', { currentYear })}{' '}
-        <a
-          href='https://github.com/QuantumNous'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
-          QuantumNous
-        </a>{' '}
-        {t('| 基于')}{' '}
+        © QuantumNous {t('| 基于')}
         <a
           href='https://github.com/songquanpeng/one-api/releases/tag/v0.5.4'
           target='_blank'
@@ -128,6 +138,15 @@ const About = () => {
           {t('AGPL v3.0协议')}
         </a>
         {t('的前提下使用。')}
+      </p>
+      <p>
+        {t('如需私用，请联系征得同意：')}
+        <a
+          href='mailto:wanzixvan6@hotmail.com'
+          className='!text-semi-color-primary'
+        >
+          wanzixvan6@hotmail.com
+        </a>
       </p>
     </div>
   );

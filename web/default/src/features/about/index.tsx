@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2026 teayear(388python) <wanzixvan6@hotmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -47,35 +48,44 @@ function EmptyAboutState() {
         </div>
         <div className='space-y-4 text-sm'>
           <p>
-            {t('New API Project Repository:')}{' '}
+            {t('Next API Project Repository:')}{' '}
             <a
-              href='https://github.com/QuantumNous/new-api'
+              href='https://github.com/388python/next-api'
               target='_blank'
               rel='noopener noreferrer'
               className='text-primary hover:underline'
             >
-              {t('https://github.com/QuantumNous/new-api')}
+              {t('https://github.com/388python/next-api')}
             </a>
           </p>
           <p className='text-muted-foreground'>
             <a
+              href='https://github.com/388python/next-api'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary hover:underline'
+            >
+              {t('Next API')}
+            </a>{' '}
+            © {currentYear}{' '}
+            <a
+              href='https://github.com/388python'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary hover:underline'
+            >
+              {t('teayear(388python)')}
+            </a>{' '}
+            {t('| Based on')}{' '}
+            <a
               href='https://github.com/QuantumNous/new-api'
               target='_blank'
               rel='noopener noreferrer'
               className='text-primary hover:underline'
             >
-              {t('NewAPI')}
+              {t('New API')}
             </a>{' '}
-            © {currentYear}{' '}
-            <a
-              href='https://github.com/QuantumNous'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
-              {t('QuantumNous')}
-            </a>{' '}
-            {t('| Based on')}{' '}
+            © QuantumNous {t('| Based on')}{' '}
             <a
               href='https://github.com/songquanpeng/one-api'
               target='_blank'
@@ -97,14 +107,17 @@ function EmptyAboutState() {
           <p className='text-muted-foreground'>
             {t('This project must be used in compliance with the')}{' '}
             <a
-              href='https://github.com/QuantumNous/new-api/blob/main/LICENSE'
+              href='https://github.com/388python/next-api/blob/main/LICENSE'
               target='_blank'
               rel='noopener noreferrer'
               className='text-primary hover:underline'
             >
               {t('AGPL v3.0 License')}
             </a>
-            .
+            .{' '}
+            {t(
+              'For private or proprietary use, contact: wanzixvan6@hotmail.com'
+            )}
           </p>
         </div>
       </div>
